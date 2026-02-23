@@ -18,9 +18,9 @@ import {
   Briefcase,
   Code
 } from 'lucide-react';
-import { PERSONAL_INFO, SKILLS, PROJECTS, EXPERIENCES, EDUCATION } from './constants';
-import AIChat from './components/AIChat';
-import ResumeModal from './components/ResumeModal';
+import { PERSONAL_INFO, SKILLS, PROJECTS, EXPERIENCES, EDUCATION } from './src/constants';
+import AIChat from './src/components/AIChat';
+import ResumeModal from './src/components/ResumeModal';
 
 const SectionHeader = ({ title, description }: { title: string, description?: string }) => (
   <div className="mb-12">
