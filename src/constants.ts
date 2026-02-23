@@ -14,7 +14,7 @@ export const PERSONAL_INFO = {
 export const SKILLS: SkillGroup[] = [
   {
     category: "Programming",
-    skills: ["Python", "Java", "C", "SQL", "JavaScript", "HTML", "CSS"]
+    skills: ["Python", "Java", "C", "SQL", "JavaScript", "HTML", "CSS", "TypeScript"]
   },
   {
     category: "Frameworks",

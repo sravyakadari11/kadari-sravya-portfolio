@@ -358,7 +358,7 @@ export default function App() {
       <footer className="py-12 px-6 border-t border-slate-100 bg-slate-50">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <p className="text-slate-500 text-sm">
-            © {new Date().getFullYear()} Kadari Sravya. Built with React.
+            © {new Date().getFullYear()} Kadari Sravya.
           </p>
           <div className="flex gap-6">
             <a href={`https://${PERSONAL_INFO.github}`} target="_blank" className="text-slate-400 hover:text-brand transition-colors"><Github size={20} /></a>
